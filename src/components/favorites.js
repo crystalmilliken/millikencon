@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/customLinks.css';
 
 export default class Favorites extends Component {
 

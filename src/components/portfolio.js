@@ -3,6 +3,7 @@ import AyurvedaScreen from '../images/ayurvedaScreen.png';
 import Healthier from '../images/healthierfun.png';
 import Diverse from '../images/diversefit.png';
 import Herald5 from '../images/herald5.png';
+import Milliken from '../images/milliken.png';
 
 export default class Portfolio extends Component {
 
@@ -46,7 +47,16 @@ export default class Portfolio extends Component {
                                 <a href="http://herald5.com/index.aspx">
                                 <img src={Herald5} style={{maxHeight:"400px", maxWidth: "400px", padding:'1em'}} alt="herald5"/>
                                 </a>
+                                 
                             </div>
+                            <div className="col-md-12" style={{backgroundColor: "white"}}>
+                                <hr/>
+                                <h4 style={{color:"black"}}><span style={{color:"red"}}>***</span>Milliken Consulting</h4>
+                                <a href="https://www.millikenconsulting.com">
+                                <img src={Milliken} style={{maxHeight:"400px", maxWidth: "400px", padding:'1em'}} alt="herald5"/>
+                                </a>
+                            </div>
+                           
                         </div>
 					    <hr/>
 					    
